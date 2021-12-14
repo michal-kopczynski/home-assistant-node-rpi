@@ -1,0 +1,22 @@
+{
+  "name": "homenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-mqtt": "^2.6.1",
+    "debug": "^4.3.3",
+    "dotenv": "^10.0.0",
+    "hazyair-plantower": "^1.2.2",
+    "mqtt": "^4.2.8",
+    "node-cron": "^3.0.0",
+    "rpi-gpio": "^2.1.7",
+    "sensor-htu21d": "^1.1.2"
+  }
+}
